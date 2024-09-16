@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite National Park</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: white;
+            padding: 20px;
+        }
+        nav {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .main-content img {
+            width: 100%;
+            height: auto;
+        }
+        .main-content h1 {
+            font-size: 2rem;
+        }
+        .main-content p {
+            width: 80%;
+            margin: 20px auto;
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: left;
+        }
+        .sponsors {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .sponsors img {
+            width: 300px;
+            margin: 15px;
+        }
+        .favorites {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .favorites div {
+            width: 30%;
+            text-align: center;
+        }
+        .favorites img {
+            width: 100%;
+            height: auto;
+        }
+        .comments {
+            margin: 20px auto;
+            width: 80%;
+            text-align: left;
+        }
+        .comments input, .comments textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+        .comments button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: lightgray;
+        }
+        footer img {
+            width: 100px;
+            vertical-align: middle;
+        }
+        footer a {
+            margin-left: 15px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="main-content">
+    <img src="main.jpg" alt="main">
+    <h1>My favorite national park, Yellowstone National Park</h1>
+    <p>Yellowstone National Park is the first national park in the United States. It is mainly located in Wyoming, and partly in Montana and Idaho. It was established on March 1, 1872 after US President Grant signed a bill passed by Congress. It is the first national park in the world.</p>
+   
+
+    <h2>Sponsors</h2>
+    <div class="sponsors">
+        <img src="Carhartt.png" alt="Sponsor 1">
+        <img src="npf.png" alt="Sponsor 2">
+        <img src="coca.png" alt="Sponsor 3">
+        <img src="LLBean.png" alt="Sponsor 4">
+    </div>
+</div>
+
+<h2>My Favorites</h2>
+<div class="favorites">
+    <div>
+        <img src="park1.png" alt="">
+        <h3>Yellowstone National Park</h3>
+        <p>The first national park in the United States, located primarily in Wyoming, with parts in Montana and Idaho.</p>
+    </div>
+    <div>
+        <img src="park2.png" alt="">
+        <h3>Olympic National Park</h3>
+        <p>Located on the Olympic Peninsula in the northwest corner of Washington State, USA, bordering the Pacific Ocean.</p>
+    </div>
+    <div>
+        <img src="park3.png" alt="">
+        <h3>Mount Rainier National Park</h3>
+        <p>It is a national park located in southeastern Pierce County, Washington, United States.</p>
+    </div>
+    <div>
+        <img src="park4.png" alt="">
+        <h3>Grand Teton National Park</h3>
+        <p>It is a national park located in the northwest of Wyoming, USA, covering an area of ​​about 130,000 hectares.</p>
+    </div>
+    <div>
+        <img src="park5.png" alt="">
+        <h3>Grand Canyon National Park</h3>
+        <p>Located in the southwestern United States, it was listed as a World Natural Heritage Site in 1979.</p>
+    </div>
+    <div>
+        <img src="park6.png" alt="">
+        <h3>Yosemite National Park</h3>
+        <p>Located in east-central California, United States, and spans the western slope of the Sierra Nevada Mountains</p>
+    </div>
+</div>
+
+<div class="comments">
+    <h2>Comments</h2>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="first last name">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="email@email.com">
+        <label for="comment">Comment</label>
+        <textarea id="comment" name="comment" rows="4" placeholder="comment here"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <img src="copyright.jpg" alt="Copyright">
+    <p>Copyright 2024 My Favorite National Park</p>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+</footer>
+
+</body>
+</html>
